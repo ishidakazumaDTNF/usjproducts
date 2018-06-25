@@ -1,0 +1,130 @@
+body {
+	font-family: 'AppleGothic';
+	background-image: url("../images/background.png");
+	background-size: cover;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #FFF;
+    font-size: 130%;
+    text-align: center;
+    line-height: 47px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+#time {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #979797;  
+	background-color: #F9B341; 
+}
+
+#waitT {
+	width: 80%;
+	height: 100px;
+	border: 1px solid #979797;
+	margin-top: 75px;
+	margin-left: 8%;
+}
+
+#wait {
+	width: 80%;
+	height: 100px;
+	border: 1px solid #979797;
+	margin-top: 45px;
+	margin-left: 8%;
+}
+
+#waitB {
+	width: 80%;
+	height: 100px;
+	border: 1px solid #979797;
+	margin-top: 45px;
+	margin-bottom: 95px;
+	margin-left: 8%;
+}
+
+#waittext {
+	color: #FFFFFF;
+	font-size: 18px;
+	padding-top: 16px;
+	text-align: center;
+}
+
+#waitname {
+	width: 100%;
+	height: 49px;
+	background-color: #FFFFFF;
+	border-right: 1px solid #979797;  
+}
+
+#waitname p {
+	font-size: 15px;
+	padding-top: 17px;
+	text-align: center;
+}
+
+.footer {
+    clear: both;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.nav {
+    font-size: 14px;
+    color: #919191;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.orange {
+    color: #F9B341;
+}
+
+.navI {
+    text-align: center;
+    margin-top: 8px;
+}
+
+#nav_home {
+    width: 20%;
+    height: 65px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+#nav_map {
+    width: 20%;
+    height: 65px;
+    float: left;
+    text-decoration: none;
+}
+
+#nav_wait {
+    width: 20%;
+    height: 65px;
+    float: left;
+    text-decoration: none;
+}
+
+#nav_setting {
+    width: 20%;
+    height: 65px;
+    float: left;
+    text-decoration: none;
+}
+
+#nav_menu {
+    width: 20%;
+    height: 65px;
+    float: left;
+    text-decoration: none;
+}

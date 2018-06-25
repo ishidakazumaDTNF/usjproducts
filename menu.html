@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>メニュー</title>
+<link rel="stylesheet" href="css/html5reset-1.6.1.css" type="text/css">
+<link rel="stylesheet" href="css/menu.css" type="text/css">
+<script src="jquery.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+      $('a').click(function(){
+        location.href = $(this).attr('href');
+        return false;
+      });
+    });
+</script>
+</head>
+<body>
+    <div id="contain">
+    <div class="header">メニュー</div>
+        <a id="waittime" href="waitTime.html">
+            <p id="waittimeI"><img src="images/waitimg.png" width="18.28" height="30" alt="待ち時間アイコン"></p>
+            <p class="white" id="waittimeM">待ち時間</p>
+        </a>
+        <a id="schedule" href="#!">
+            <p id="scheduleI"><img src="images/scheduleimg.png" width="24.84" height="30" alt="スケジュールアイコン"></p>
+            <p class="white" id="scheduleM">スケジュール</p>
+        </a>
+        <a id="map" href="map.html">
+            <p id="locationI"><img src="images/locationimg.png" width="30" height="27.89" alt="ロケーションアイコン"></p>
+            <p class="white" id="locationM">マップ</p>
+        </a>
+        <a class="white" id="attraction" href="#!"><p class="bot3">アトラクション</p></a>
+        <a class="white" id="restaurant" href="#!"><p class="bot3">レストラン</p></a>
+        <a class="white" id="shop" href="#!"><p class="bot3">ショップ</p></a>
+        <div class="footer">
+            <a id="nav_home" href="home.html">
+                <p class="navI"><img src="images/home.png" width="30" height="30" alt="ホームアイコン"></p>
+                <p class="nav">ホーム</p>
+            </a>
+            <a id="nav_map" href="map.html">
+                <p class="navI"><img src="images/map.png" width="30" height="30" alt="マップアイコン"></p>
+                <p class="nav">マップ</p>
+            </a>
+            <a id="nav_wait" href="waitTime.html">
+                <p class="navI"><img src="images/wait.png" width="18" height="30" alt="待ち時間アイコン"></p>
+                <p class="nav">待ち時間</p>
+            </a>
+            <a id="nav_setting" href="setting.html">
+                <p class="navI"><img src="images/setting.png" width="30" height="30" alt="設定アイコン"></p>
+                <p class="nav">設定</p>
+            </a>
+            <a id="nav_menu" href="menu.html">
+                <p class="navI"><img src="images/menu_hov.png" width="30" height="30" alt="メニューアイコン"></p>
+                <p class="nav orange">メニュー</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

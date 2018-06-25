@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+body{
+    font-family: 'AppleGothic';
+    background-image: url("../images/background.png");
+    background-size: cover;
+}
+
+/* 便利なやつ */
+.white {
+    color: white;
+}
+
+/* ヘッダー */
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #FFF;
+    font-size: 130%;
+    text-align: center;
+    line-height: 47px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+/* アイコンと文字 */
+
+#waittimeI {
+    text-align: center;
+    margin-top: 169px;
+}
+
+#waittimeM {
+    text-align: center;
+    font-size: 120%;
+    margin-top: 15px;
+}
+
+#scheduleI {
+    text-align: center;
+    margin-top: 66px;
+}
+
+#scheduleM {
+    text-align: center;
+    font-size: 120%;
+    
+    margin-top: 15px;
+}
+
+#locationI {
+    text-align: center;
+    margin-top: 66px;
+}
+
+#locationM {
+    text-align: center;
+    font-size: 120%;
+    
+    margin-top: 15px;
+}
+
+#attraction {
+    text-align: center;
+}
+
+#restaurant {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#shop {
+    text-align: center;
+}
+
+.bot3{
+    margin-top: 100px;
+}
+
+/* 各箱の大きさ、間隔の設定 */
+
+#contain{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+#waittime{
+    background-color: #49A6ED;
+    width: 45.86666666666667%;
+    height: 407px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 2.666666666666667%;
+    margin-right: 2.933333333333333%;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+#schedule{
+    background-color: #474E6D;
+    width: 45.86666666666667%;
+    height: 199px;
+    float: left;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#map{
+    background-color: #EC5E58;
+    width: 45.86666666666667%;
+    height: 199px;
+    float: left;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#attraction{
+    clear: both;
+    background-color: #5DB192;
+    width: 29.86666666666667%;
+    height: 220px;
+    float: left;
+    margin-left: 2.666666666666667%;
+    text-decoration: none;
+}
+
+#restaurant{
+    background-color: #F09536;
+    width: 29.86666666666667%;
+    height: 220px;
+    float: left;
+    margin-left: 2.666666666666667%;
+    text-decoration: none;
+}
+
+#shop{
+    background-color: #EB5180;
+    width: 29.86666666666667%;
+    height: 220px;
+    float: left;
+    margin-left: 2.666666666666667%;
+    text-decoration: none;
+}
+
+.footer {
+    clear: both;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.nav {
+    font-size: 14px;
+    color: #919191;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.orange {
+    color: #F9B341;
+}
+
+.navI {
+    text-align: center;
+    margin-top: 8px;
+}
+
+#nav_home {
+    width: 20%;
+    height: 65px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+#nav_map {
+    width: 20%;
+    height: 65px;
+    float: left;
+    text-decoration: none;
+}
+
+#nav_wait {
+    width: 20%;
+    height: 65px;
+    float: left;
+    text-decoration: none;
+}
+
+#nav_setting {
+    width: 20%;
+    height: 65px;
+    float: left;
+    text-decoration: none;
+}
+
+#nav_menu {
+    width: 20%;
+    height: 65px;
+    float: left;
+    text-decoration: none;
+}

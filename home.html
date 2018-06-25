@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>ホーム</title>
+<link rel="stylesheet" href="css/html5reset-1.6.1.css" type="text/css">
+<link rel="stylesheet" href="css/home.css" type="text/css">
+<script src="jquery.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+      $('a').click(function(){
+        location.href = $(this).attr('href');
+        return false;
+      });
+    });
+</script>
+</head>
+<body>
+<div class="header">ホーム</div>
+
+<div id="show">
+	<div id="time">
+		<div id="clock">
+			<img src="images/clock.png" width="30" height="30">
+		</div>
+		<div id="text">
+			<p>次のショー 11:00〜</p>
+		</div>
+	</div>
+	<div id="name">
+		<p>ワンド・スタディ</p>
+	</div>
+</div>
+
+<div id="button">
+	<a href="#!" class="schedule">ショースケジュールへ</a>
+</div>
+
+<div id="wait">
+	<div id="time">
+		<div id="waittext">
+			<p>待ち時間 80分</p>
+		</div>
+	</div>
+	<div id="waitname">
+		<p>ミニオン・ハチャメチャライド</p>
+	</div>
+</div>
+
+<div id="wait">
+	<div id="time">
+		<div id="waittext">
+			<p>待ち時間 100分</p>
+		</div>
+	</div>
+	<div id="waitname">
+		<p>ハリウッド・ドリーム・ザ・ライド</p>
+	</div>
+</div>
+
+<div id="wait">
+	<div id="time">
+		<div id="waittext">
+			<p>待ち時間 120分</p>
+		</div>
+	</div>
+	<div id="waitname">
+		<p>ザ・フライングダイナソー</p>
+	</div>
+</div>
+
+<div class="footer">
+		<a id="nav_home" href="home.html">
+			<p class="navI"><img src="images/home_hov.png" width="30" height="30" alt="ホームアイコン"></p>
+			<p class="nav orange">ホーム</p>
+		</a>
+		   <a id="nav_map" href="map.html">
+			<p class="navI"><img src="images/map.png" width="30" height="30" alt="マップアイコン"></p>
+			<p class="nav">マップ</p>
+		</a>
+		<a id="nav_wait" href="waitTime.html">
+			<p class="navI"><img src="images/wait.png" width="18" height="30" alt="待ち時間アイコン"></p>
+			<p class="nav">待ち時間</p>
+		</a>
+		<a id="nav_setting" href="setting.html">
+			<p class="navI"><img src="images/setting.png" width="30" height="30" alt="設定アイコン"></p>
+			<p class="nav">設定</p>
+		</a>
+		<a id="nav_menu" href="menu.html">
+			<p class="navI"><img src="images/menu.png" width="30" height="30" alt="メニューアイコン"></p>
+			<p class="nav">メニュー</p>
+		</a>
+	</div>
+
+</body>
+</html>
