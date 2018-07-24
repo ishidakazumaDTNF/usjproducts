@@ -3,9 +3,11 @@
 ## デザイン
 
 **home**
+  
 ![home](images/sc_usj_home.png)
   
 **menu**
+  
 ![home](images/sc_usj_menu.png)
 
 ## 概要
